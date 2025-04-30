@@ -54,7 +54,7 @@ header {
 	cuando hay mas de uno distribuya el esapcio restante entre los espacios de cada elemento/item*/
 }
 .ligas-secciones a{/*caracteristicas elementos tipo enlace dentro del contenedor con clase secciones*/
-	color: grey; /*color que tendran las fuentes de los enlaces*/
+	color: white; /*color que tendran las fuentes de los enlaces*/
 	text-decoration: none; /*le quito decoraciones a los enlaces, saeln sin subrayar ahora*/
   	font-weight: bold; /*tipo de letra bold*/
  	margin-top: 10px;
