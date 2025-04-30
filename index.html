@@ -1,0 +1,214 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">PRESENTACIÓN</a>
+          <a href="#secc2">SALA 1</a>
+          <a href="#secc3">SALA 2</a>
+          <a href="#secc4">SALA 3</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>MOV STUDIOMX</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Bienvenidos a MovStudioo: Museo Virtual</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Te damos la bienvenida a MovStudioo, un museo virtual creado para ofrecerte una experiencia inmersiva única. En esta página, podrás explorar tres espacios web diferentes, cada uno diseñado en A-Frame, donde se presenta una imagen acompañada de su reseña artística.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>A-Frame es un framework de código abierto para construir experiencias de realidad virtual (VR) directamente en el navegador web, usando principalmente HTML.
+Fue creado originalmente por el equipo de Mozilla.</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Con A-Frame puedes crear mundos 3D, escenas interactivas o aplicaciones de realidad virtual sin necesidad de programar en lenguajes complicados como WebGL puro o Three.js directamente.</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>A-Frame es un framework de código abierto para construir experiencias de realidad virtual (VR) directamente en el navegador web, usando principalmente HTML.
+Fue creado originalmente por el equipo de Mozilla.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Con A-Frame puedes crear mundos 3D, escenas interactivas o aplicaciones de realidad virtual sin necesidad de programar en lenguajes complicados como WebGL puro o Three.js directamente.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>SALA 1</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Tres figuras que habitan entre la espiritualidad, la tierra y el cuidado:
+Jícuri Shaman, Mammillaria la sabia y Allium el Elemental. 
+
+Estas piezas, más que esculturas, son símbolos vivientes de procesos internos:
+la lucha que florece, el amor que cuida y la medicina que nutre.
+Cada uno de estos personajes representa una etapa del viaje personal que todos enfrentamos con espinas, pausas, alimento y transformación.
+
+Sus formas y acabados nos invitan a observarlos con calma, mientras su esencia nos susurra lo que necesitamos escuchar.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>👇 Ve al link de esta exposición.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>https://sala-1-museo-virtual-a-frame.glitch.me/</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>SALA 2</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Tres figuras que se mueven entre la sensualidad, la sátira y lo fantástico:
+BL03, nacido en un mundo de criaturas misteriosas; Duele Rico, el héroe improbable de un universo urbano lleno de techno y castigo; y SadoBlob, una figura provocadora que transforma el dolor en arte.
+
+Cada uno con una narrativa única y estética cuidadosamente construida, estas piezas habitan el límite entre el placer visual y el relato simbólico.
+Aquí se cruza lo imaginario con lo atrevido, lo sensual con lo absurdo, en una experiencia donde cada figura se vuelve espejo de pasiones ocultas y deseos inesperados.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>👇 Ve al link de esta exposición.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>https://sala-2-museo-virtual-a-frame.glitch.me/</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>SALA 3</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En esta muestra convergen mundos distintos, pero igual de intensos:
+CURANTIS, un ser entre lo biológico y lo mecánico, marca el inicio de una saga de híbridos en conflicto.
+Only Sins, una pieza cargada de simbolismo y provocación, invoca eternidades rojas desde las profundidades digitales.
+Y CMLK Round 2, donde luchadores y monstruos colisionan en un cuadrilátero lleno de nostalgia, fuerza y cultura pop.
+
+Cada obra dialoga con sus propios mitos: entre tecnología, sensualidad y espectáculo. Aquí empieza la experiencia, lo demás… se descubre adentro.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>👇 Ve al link de esta exposición.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>https://sala-3-museo-virtual-a-frame.glitch.me/</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.behance.net/movstudioo">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://linktr.ee/movstudioo">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="https://www.instagram.com/movstudioo/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">MOV STUDIOMX</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
